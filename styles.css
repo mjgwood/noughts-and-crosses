@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  background: #111;
+}
+
+.container {
+  position: absolute;
+  margin: -400px 0 0 -500px;
+  width: 1000px;
+  height: 800px;
+  left: 50%;
+  top: 50%;
+}
+
+.header {
+  margin: 0 auto;
+  width: 500px;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  float: right;
+  text-align: center;
+  border: solid;
+  border-radius: 50%;
+  background: #D13925;
+  box-shadow: 1px 1px 5px;
+}
+
+.btn {
+  margin-top: 35px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.btn_active {
+  font-weight: bold;
+  background: #7EDCDD;
+}
+
+#reset {
+  margin-top: 10px;
+  height: 50px;
+  width: 120px;
+  border-radius: 25%;
+}
+
+.board {
+  background: url("http://i.imgur.com/enV6eko.jpg");
+  position: absolute;
+  margin: -250px 0 0 -250px;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  box-shadow: -10px 10px 3px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.square {
+  background: url("http://i.imgur.com/sWc71x5.jpg") no-repeat center center fixed;
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 5px;
+}
+
+.mark {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  left: 50%;
+  line-height: 70px;
+  font-size: 80px;
+  text-shadow: 3px 3px 3px;
+  text-align: center;
+}
+
+.btn:hover, .square:hover, .mark:hover {
+  cursor: pointer;
+}
